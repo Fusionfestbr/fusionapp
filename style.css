@@ -322,9 +322,6 @@ body{
   font-weight:530;
   border-radius:6px;
   width:max-content;
-  position:absolute;
-  right:100px;
-  bottom:420px;
 }
 
 .info-grid{
