@@ -115,20 +115,21 @@ body {
 }
 
 .top-line {
-  display: flex;
+  display: -ms-inline-grid;
   justify-content: space-between;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
 .qtd {
   color: #00d1c7;
-  font-weight: 500;
+  font-weight: 450;
   font-size: 12.5px;
 }
 
 .date {
   font-size: 12px;
   color: #8fa3a6;
+  
 }
 
 /* TITULO */

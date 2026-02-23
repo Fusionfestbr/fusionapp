@@ -314,14 +314,17 @@ body{
 }
 
 .more-info-btn{
-  background:#00c4f525;
-  color:#067d8d;
+  background:#a1e1f125;
+  color:#046877;
   border:none;
   padding:8px 18px;
   font-size:13px;
-  font-weight:500;
+  font-weight:530;
   border-radius:6px;
   width:max-content;
+  position:absolute;
+  right:100px;
+  bottom:420px;
 }
 
 .info-grid{
