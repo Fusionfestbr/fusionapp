@@ -70,7 +70,7 @@ body{
 
 .ticket-card{
   background:#f2f2f2;
-  color:#000;
+  color:#000000c2;
   border-radius:3px;
   padding:18px;
 }
@@ -163,7 +163,7 @@ body{
 .carousel-track{
   display:flex;
   gap:0;
-  transition:transform 0.4s ease;
+  transition:transform 0.8s ease;
 }
 
 .ticket-wrapper{
@@ -222,7 +222,7 @@ body{
 
 .ticketmaster-img img{
   width:100%;
-  border-radius:3px;
+  border-radius:8px;
   display:block;
 }
 
@@ -236,7 +236,7 @@ body{
 .progress-bar{
   position:absolute;
   inset:0;
-  background:#03ddd2;
+  background:#03ddae;
   animation:wipe 20s linear infinite;
 }
 
@@ -253,15 +253,15 @@ body{
   background:#f2f2f2;
   color:#000;
   border-radius:3px;
-  padding:18px;
+  padding:25px;
 }
 
 .top-card{
-  margin-top:2px; /* praticamente colado */
+  margin-top:1px; /* praticamente colado */
 }
 
 .info-card{
-  margin-top:2px;
+  margin-top:1px;
 }
 
 .ticket-top{
@@ -271,7 +271,7 @@ body{
 }
 
 .qr-area{
-  width:115px;
+  width:130px;
   flex-shrink:0;
 }
 
@@ -300,15 +300,16 @@ body{
 
 .mini-label{
   font-size:10px;
-  color:#8a8a8a;
+  color:#777777;
   letter-spacing:0.5px;
   display:block;
-  margin-bottom:4px;
+  margin-bottom:5px;
 }
 
 .sector-name{
-  font-size:16px;
-  font-weight:600;
+  font-size:18px;
+  font-weight:500;
+  color:#4e4e4e;
   margin-bottom:12px;
 }
 
@@ -330,10 +331,12 @@ body{
 }
 
 .info-value{
-  font-size:15px;
-  font-weight:600;
+  font-size:18px;
+  font-weight:500;
+  color:#4e4e4e;
   display:block;
 }
+
 /* ===== CARROSSEL ===== */
 
 .carousel{
@@ -344,7 +347,7 @@ body{
 .carousel-track{
   display:flex;
   gap:0;
-  transition:transform 0.4s ease;
+  transition:transform 0.6s ease;
 }
 
 .ticket-wrapper{
