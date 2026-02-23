@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  background:
+    radial-gradient(circle at 15% 0%, rgba(20, 80, 85, 0.6), transparent 40%),
+    linear-gradient(180deg, #071416 0%, #081c1f 50%, #061214 100%);
+  color: white;
+}
+
+.container {
+  max-width: 420px;
+  margin: auto;
+  padding: 24px 18px;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.header h1 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  width: 42px;
+  height: 42px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 6px;
+}
+
+/* TABS */
+.tabs {
+  display: flex;
+  background: rgba(255,255,255,0.05);
+  border-radius: 6px;
+  padding: 4px;
+  margin-bottom: 25px;
+}
+
+.tab {
+  flex: 1;
+  border: none;
+  padding: 12px 0;
+  border-radius: 8px;
+  background: transparent;
+  color: #8fa3a6;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.tab.active {
+  background: #f1f1f1;
+  color: black;
+  font-weight: 600;
+}
+
+/* MÊS */
+.month {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #cfd8dc;
+}
+
+/* CARD */
+.event-card {
+  display: flex;
+  gap: 10px;
+  background: linear-gradient(145deg, #0f2023, #0b1a1c);
+  border-radius: 8px;
+  padding: 8px;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 8px;
+
+  box-shadow: 
+    0 4px 20px rgba(0,0,0,0.25),
+    inset 0 0 0 1px rgba(255,255,255,0.03);
+
+  transition: 0.9s;
+}
+
+.event-card:active {
+  transform: scale(0.98);
+}
+
+/* IMAGEM */
+.thumb {
+  width: 100px;
+  height: 100px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+/* INFO */
+.event-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top-line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.qtd {
+  color: #00d1c7;
+  font-weight: 500;
+  font-size: 12.5px;
+}
+
+.date {
+  font-size: 12px;
+  color: #8fa3a6;
+}
+
+/* TITULO */
+h3 {
+  font-size: 15.5px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+/* LOCAL */
+.event-info p {
+  font-size: 13px;
+  color: #9fb3b6;
+}

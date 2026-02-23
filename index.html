@@ -1,43 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meus ingressos</title>
-  <link rel="stylesheet" href="style.css" />
+
+  <link rel="stylesheet" href="home.css">
 </head>
 <body>
 
-  <div class="page">
+<div class="container">
 
-    <header class="home-header">
-      <h1 class="home-title">Meus ingressos</h1>
-    </header>
+  <!-- HEADER -->
+  <header class="header">
+    <h1>Meus ingressos</h1>
 
-    <div class="tabs">
-      <div class="tab active">Próximos</div>
-      <div class="tab inactive">Anterior</div>
+    <div class="icons">
+      <div class="icon"></div>
+      <div class="icon"></div>
     </div>
+  </header>
 
-    <h2 class="month">Fevereiro 2026</h2>
-
-    <!-- EVENT CARD (clicável) -->
-    <div class="card js-card">
-      <img src="assets/rufus.png" class="thumb" alt="Imagem do evento">
-
-      <div class="card-info">
-        <div class="top-line">
-          <span class="qtd">4 ingressos</span>
-          <span class="date" id="dataEvento"></span>
-        </div>
-
-        <h3 class="event-title" id="nomeEvento"></h3>
-        <p class="place" id="localEvento"></p>
-      </div>
-    </div>
-
+  <!-- TABS -->
+  <div class="tabs">
+    <button class="tab active">Próximos</button>
+    <button class="tab">Anteriores</button>
+    
   </div>
 
-  <script src="script.js"></script>
+  <!-- MÊS -->
+  <h2 class="month">Fevereiro 2026</h2>
+
+  <!-- EVENTO 1 -->
+  <a href="ingresso.html" class="event-card">
+    
+    <img src="assets/acdc.png" class="thumb">
+
+    <div class="event-info">
+      <div class="top-line">
+        <span class="qtd">4 ingressos</span>
+        <span class="date">Terça-feira 24</span>
+      </div>
+
+      <h3>AC/DC: Pwr Up Tour</h3>
+      <p>MorumBis</p>
+    </div>
+
+  </a>
+
+  <!-- EVENTO 2 -->
+  <a href="ingresso.html" class="event-card">
+    
+    <img src="assets/rufus.png" class="thumb">
+
+    <div class="event-info">
+      <div class="top-line">
+        <span class="qtd">6 ingressos</span>
+        <span class="date">Sexta-feira 27 19:45</span>
+      </div>
+
+      <h3>RÜFÜS DU SOL: SOUTH A</h3>
+      <p>Mercado Livre Arena Pacaembu</p>
+    </div>
+
+  </a>
+
+</div>
+
 </body>
 </html>
