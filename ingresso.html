@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ingresso</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page">
+
+  <div class="event-header">
+    <a href="index.html" class="back">←</a>
+    <div>
+      <h1>RÜFÜS DU SOL: SOUTH AMERICA 2026 - SÃO PAULO</h1>
+      <p>27/2/2026 - Mercado Livre Arena Pacaembu</p>
+      <span>#OAovivoÉAgora</span>
+    </div>
+  </div>
+
+  <div class="carousel">
+
+    <div class="carousel-track">
+
+      <!-- 6 INGRESSOS -->
+      <div class="ticket-wrapper">
+        <div class="ticketmaster-img">
+          <img src="assets/ticketmaster.png">
+        </div>
+
+        <div class="progress-container">
+          <div class="progress-bar"></div>
+        </div>
+
+        <div class="ticket-card top-card">
+          <div class="ticket-top">
+            <div class="qr-area">
+              <img src="assets/qr1.png" class="qr-img">
+            </div>
+
+            <div class="ticket-side">
+              <span class="mini-label">SETOR</span>
+              <span class="sector-name">CADEIRA OESTE</span>
+              <button class="more-info-btn">Mais Informações</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="ticket-card info-card">
+          <div class="info-full">
+            <span class="mini-label">TITULAR</span>
+            <span class="info-value">Camila Souza de Lima</span>
+          </div>
+
+          <div class="info-full">
+            <span class="mini-label">TAXA</span>
+            <span class="info-value">Inteira - Pré-Venda Artista - R$ 760</span>
+          </div>
+
+          <div class="info-row">
+            <div>
+              <span class="mini-label">SEÇÃO</span>
+              <span class="info-value">CADEIRA OESTE</span>
+            </div>
+            <div>
+              <span class="mini-label">FILEIRA</span>
+              <span class="info-value">Não numerado</span>
+            </div>
+          </div>
+
+          <div class="info-row">
+            <div>
+              <span class="mini-label">ABERTURA</span>
+              <span class="info-value">16:00</span>
+            </div>
+            <div>
+              <span class="mini-label">INICIO</span>
+              <span class="info-value">19:45</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DUPLICAMOS 5 VEZES -->
+      <script>
+        for(let i=0;i<5;i++){
+          document.write(document.querySelector('.ticket-wrapper').outerHTML);
+        }
+      </script>
+
+    </div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
