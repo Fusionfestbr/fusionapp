@@ -375,14 +375,3 @@ body{
   flex-direction: column;
   margin-bottom: 6px;
 }
-
-document.querySelectorAll('.ticket-wrapper').forEach(ticket => {
-  
-  const acesso = ticket.querySelector('.acesso');
-  const acessoValue = ticket.querySelector('.acesso-value');
-
-  if (!acessoValue || acessoValue.textContent.trim() === '') {
-    acesso.style.display = 'none';
-  }
-
-});
